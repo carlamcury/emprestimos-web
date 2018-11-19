@@ -1,0 +1,78 @@
+<html lang="pt-br" ng-app="emprestimo-web">
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+  <link rel="stylesheet" href="scss/style.css">
+
+    
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#333">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8">
+   <meta name="msapplication-navbutton-color" content="#333">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=0" />
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <title>Emprestimo Web</title>
+</head>
+
+
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js">  </script>
+  
+
+  <!-- CABECARIO -->
+  <div ng-include="'views/cabecario.html'"></div>
+  <!-- PAINEL -->
+  <!-- <div ng-controller="PainelController" ng-include="'views/painel-status.html'"></div> -->
+  <!-- MENU-LATERAL -->
+  <div ng-include="'views/menu-lateral.html'"></div>
+
+  <!-- ROUTER CONTEUDO -->
+  <div ng-view> </div>
+
+
+  <!-- RODAPE  -->
+  <!-- <div ng-include="'views/rodape.html'"></div> -->
+
+
+
+</body>
+
+<script src="libs/jquery/dist/jquery.js"></script>
+<script src="libs/angular/angular.js"></script>
+<script src="libs/angular-locale-pt-br/angular-locale_pt-br.js"></script>
+<script src="libs/angular-animate/angular-animate.js"></script>
+<script src="libs/angular-route/angular-route.js"></script>
+<script src="libs/angular-resource/angular-resource.js"></script>
+<script src="libs/angular-cookies/angular-cookies.js"></script>
+<script src="libs/angular-input-masks/releases/angular-input-masks-standalone.js"></script>
+<script src="libs/angular-spinner/dist/angular-spinner.js"></script>
+
+<script src="js/request/socket.js"></script>
+
+<script src="js/request/http-usuario.js"></script>
+<script src="js/request/http-charts.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/main.js"></script>
+<script src="js/constant.js"></script>
+
+
+
+<!-- flux start controllers  -->
+<script src="controllers/index-controller.js"></script>
+<script src="controllers/chart-controller.js"></script>
+<script src="controllers/home-controller.js"></script>
+<script src="controllers/details-controller.js"></script>
+<script src="controllers/painel-controller.js"></script>
+
+
+</html>

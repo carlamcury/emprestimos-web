@@ -1,0 +1,12 @@
+<div class="menu-coins hide-on-med-and-down">
+   
+    <ul>
+        <li ng-repeat=" coin in coins " >
+            <i class="fas fa-coins white-text"></i> <span>{{ coin.name }}</span>
+            <br>
+            <span>{{ coin.price | currency : "R$ " : 4 }}  </span>
+            <span style="padding-left: 20px;     font-size: 1.4em;  " ng-style="{ 'color': (coin.percent_change_1h >= 0) ? (coin.percent_change_1h == 0) ? 'white' : 'green' : 'red' }" >  {{ coin.percent_change_1h}}% </span>
+     </ul>
+</div>
+ 
+  

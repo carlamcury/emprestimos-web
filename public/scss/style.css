@@ -1,0 +1,177 @@
+ 
+.cor-primaria {
+  background-color: #f63450 ;
+}
+.cor-secundaria {
+  color: #ecf0f7;
+}
+
+.login  p { 
+  color: white !important;
+}
+ 
+ 
+.navbar-fixed nav ul {
+  padding-right: 70px;
+}
+.navbar-fixed nav label {
+  padding-right: 10px;
+  color: white;
+} 
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: gray;
+}
+input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: gray;
+
+} 
+.description span{
+  line-height: 30px;
+  font-family: Roboto;
+}
+  
+ 
+
+
+
+  .chip {
+    /* background-color: #1b6d1c !important; */
+    box-shadow: 3px 3px #ccc;
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .my-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .my-container h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .subtitulo {
+    color: #bbb;
+    font-weight: 300;
+  }
+
+  ul.side-nav.fixed li a i.material-icons {
+    margin: 0 16px 0 0;
+}
+ 
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 .jv,
+  .kv,
+  .kq,
+  .kg,
+  .kf {
+    font-weight: 200;
+  }
+  h5 {
+    font-size: 1.5em;
+  }
+
+  .menu-superior {
+
+    background-color: ff9800 !important;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 2px #ccc;
+  }
+  p {
+    color: #596379 !important; 
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    margin: 0 0 10px !important;
+    font-family: 'Raleway', sans-serif !important;
+
+  }
+  html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #ecf0f6;
+
+  }
+
+  .material-icons {
+    /* color: #ff9800 !important; */
+    color: #333 !important;
+    font-size: 30px;
+
+  }
+  .card {
+    width: auto;
+    height: 250px;
+    border-radius: 20px;
+  }
+  .card .card-content {
+    padding: 10px !important;
+  }
+
+  @media only screen and (max-width: 992px)  {
+    nav .brand-logo{
+      left:10% ;
+      -webkit-transform : translate(0%);
+      transform : translate(0%);
+    }
+
+}
+  .logo_empresa {
+    font-size: 1.1em;
+    color: white;
+    margin-left:  16px;
+  }
+  .logo_titulo_empresa {
+    font-size: 1em;
+    font-weight: 100;
+     color: white;
+  }
+ 
+.svg-litecoin {
+  display: inline-block;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+  font-size: 1em;
+  color:#FFFFFF08 ;
+}
+ 
+
+
+/* modal */
+.modal h2 {
+  margin-bottom: 20px; }
+
+.modal .icon {
+  margin-right: 5px;
+  margin-top: -5px; }
+
+.modal .modal-dialog {
+  margin-top: 60%; }
+
+.modal .modal-content {
+  border: none; }
+
+.modal .modal-header {
+  padding-bottom: 0;
+  border-bottom: initial; }
+
+/* mensagem de erro */
+.modal-erro .modal-content {
+  background-color: #f2dede; }
+
+ 

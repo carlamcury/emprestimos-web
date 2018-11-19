@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col l3"></div>
+        <div class="col s12 m12 l6">
+            <div class="card    darken-1">
+                <div class="card-content black-text">
+                    <span class="card-title">Contato</span>
+                    <p>Canal de comunicação para suporte e duvidas.</p>
+                     <br>
+                    <div class="">
+                        <div class="input-field  s12">
+                            <input placeholder="" id="first_name" mg-model="msg.email" type="email" class="validate">
+                            <label class="active" for="first_name">Email:</label>
+                        </div>
+                        <div class="input-field  s12">
+                            <textarea id="textarea1" mg-model="msg.text" class="materialize-textarea"></textarea>
+                            <label class="active" for="textarea1">Descrição:</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-action ">
+                        <a href="#" >CANCELAR</a>
+                        <a ng-click="sendMsg(msg)">ENVIAR</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col l3"></div>
+    </div>
+</div>

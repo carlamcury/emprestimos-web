@@ -1,0 +1,13 @@
+{
+  "name": "emprestimo-web",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.9.8",
+    "express-static-gzip": "^0.3.0"
+  },
+  "devDependencies": {}
+}
